@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<table class="table">
+  <tr>
+    <th>FirstName</th>
+    <td>{{FirstName}}</td>
+    
+  </tr>
+  <tr>
+    <th>LastName</th>
+    <td>{{LastName}}</td>
+  </tr>
+  <tr *ngIf='showButton'>
+    <th>Gender</th>
+    <td>{{Gender}}</td>
+  </tr>
+  <tr *ngIf='showButton'>
+    <th>Salary</th>
+    <td>{{Salary}}</td>
+  </tr>
+
+
+
+  <tr><button (click)=hideOrShow()> {{showButton?'Hide':'Show'}}details</button></tr>
+
+
+  <tr><td><input [(ngModel)]='name' class="form-control" placeholder="Search"/></td></tr>
+  <tr><td>My name {{name}}</td></tr>
+
+  
+  
+</table>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "EmployeesData": [
+    {"id":1,"Name": "Raj","Salary":"10000","Gender":"Male"},
+    {"id":2,"Name": "Mahesh","Salary":"20000","Gender":"Male"},
+    {"id":3,"Name": "A","Salary":"30000","Gender":"FeMale"},
+    {"id":4,"Name": "B","Salary":"30000","Gender":"FeMale"}
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

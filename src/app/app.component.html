@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="padding:5px">
+  <ul class="nav nav-pills nav-justified">
+      <li routerLinkActive="active">
+          <a routerLink="home">Home</a>
+      </li>
+      <li routerLinkActive="active">
+          <a routerLink="routing">Routng</a>
+      </li>
+      <li routerLinkActive="active">
+          <a routerLink="user">User</a>
+      </li>
+
+
+  </ul>
+  <br/>
+  <router-outlet></router-outlet>
+</div>
+<router-outlet></router-outlet>
+<div style="text-align:center">
+  <h1>
+      <div class="alert alert-success" role="alert">
+    Welcome to {{ Name }}!</div>
+    <!--<app-employee></app-employee>-->
+
+    <app-user></app-user>
+    <app-for-loop></app-for-loop>
+    
+
+  </h1>
+  
+</div>
+<!--<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>!-->
+
+
